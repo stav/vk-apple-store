@@ -13,8 +13,10 @@ requests_cache.install_cache(cache_name='apple_ctore', backend='sqlite')
 def crawl_store(href):
     url = f'https://apple.com{href}'
     response = requests.get(url, headers=HEADERS)
+    doc = lxml.html.fromstring(response.content)
     return {
-        'url': response.url,
+        'url': doc.xpath('/html/head/meta[@property="og:url"]/@content')[0],
+        'name': doc.xpath('/html/head/meta[@property="og:title"]/@content')[0].split('-', 1)[0].strip(),
     }
 
 def crawl_list(doc):
