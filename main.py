@@ -19,6 +19,9 @@ if __name__ == '__main__':
     doc = lxml.html.fromstring(response.content)
     print(doc)
     for store in doc.cssselect('.store-address'):
-        span = store.xpath('.//span/text()')
-        location = span[0] if len(span) > 0 else 'UNKNOWN'
-        print(store, location)
+        spans = store.xpath('.//span/text()')
+        location = spans[0] if len(spans) > 0 else 'UNKNOWN'
+        hrefs = store.xpath('.//a/@href')
+        if hrefs:
+            href = hrefs[0]
+            print(store, location, href)
