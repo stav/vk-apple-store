@@ -45,7 +45,7 @@ def crawl_store(url):
 
 def crawl_stores(html):
     doc = lxml.html.fromstring(html)
-    stores = doc.cssselect('.store-address a')[:130]
+    stores = doc.cssselect('.store-address a')
     for store in stores:
         href = store.get('href')
         url = f'https://apple.com{href}'
