@@ -1,101 +1,131 @@
 name,street,locality,region,postal_code,latitude,longitude,url
-The Summit,217 Summit Boulevard ,Birmingham,Alabama,35243,33.44801152,-86.72851362,https://www.apple.com/retail/thesummit/
-Bridge Street,320 The Bridge Street ,Huntsville,Alabama,35806,34.716144,-86.673021,https://www.apple.com/retail/bridgestreet/
-Anchorage 5th Avenue Mall,320 West 5th Avenue ,Anchorage,Alaska,99501,61.216734,-149.888387,https://www.apple.com/retail/anchorage5thavenuemall/
-Chandler Fashion Center,3111 W Chandler Boulevard ,Chandler,Arizona,85226,33.302255,-111.89969,https://www.apple.com/retail/chandlerfashioncenter/
-SanTan Village,2218 E. Williams Field Road ,Gilbert,Arizona,85295,33.30879,-111.74271,https://www.apple.com/retail/santanvillage/
-Arrowhead,7700 West Arrowhead Towne Ctr ,Glendale,Arizona,85308,33.6422,-112.2256,https://www.apple.com/retail/arrowhead/
-Scottsdale Fashion Square,7014 East Camelback Road ,Scottsdale,Arizona,85251,33.50367,-111.9266,https://www.apple.com/retail/scottsdalefashionsquare/
-Scottsdale Quarter,15169 North Scottsdale Road ,Scottsdale,Arizona,85254,33.62411,-111.92514,https://www.apple.com/retail/scottsdalequarter/
-La Encantada,2905 East Skyline Drive ,Tucson,Arizona,85718,32.32497,-110.92985,https://www.apple.com/retail/laencantada/
-The Promenade at Chenal,17711 Chenal Parkway ,Little Rock,Arkansas,72223,34.76635,-92.45902,https://www.apple.com/retail/thepromenadeatchenal/
-Valley Plaza,2701 Ming Avenue ,Bakersfield,California,93304,35.33795,-119.03271,https://www.apple.com/retail/valleyplaza/
-4th Street,1823 4th Street ,Berkeley,California,94710,37.869346,-122.300122,https://www.apple.com/retail/4thstreet/
-Brea Mall,1016C Brea Mall ,Brea,California,92821,33.915871,-117.886592,https://www.apple.com/retail/breamall/
-Burlingame,1301 Burlingame Avenue ,Burlingame,California,94010,37.57827,-122.34708,https://www.apple.com/retail/burlingame/
-Topanga,6600 Topanga Canyon Boulevard ,Canoga Park,California,91303,34.190237371111,-118.603103308888,https://www.apple.com/retail/topanga/
-Carlsbad,1923 Calle Barcelona ,Carlsbad,California,92009,33.071256341208,-117.265198794902,https://www.apple.com/retail/carlsbad/
-Los Cerritos,242 Los Cerritos Center ,Cerritos,California,90703,33.862423,-118.093942,https://www.apple.com/retail/loscerritos/
-Otay Ranch,2015 Birch Road ,Chula Vista,California,91915,32.624013452564,-116.966609291354,https://www.apple.com/retail/otayranch/
-Corte Madera,1520 Redwood Highway ,Corte Madera,California,94925,37.928465,-122.514284,https://www.apple.com/retail/cortemadera/
-South Coast Plaza,3333 Bear Street ,Costa Mesa,California,92626,33.6921,-117.89322,https://www.apple.com/retail/southcoastplaza/
-Infinite Loop,One Infinite Loop ,Cupertino,California,95014,37.331423,-122.030503,https://www.apple.com/retail/infiniteloop/
-Apple Park Visitor Center,10600 North Tantau Avenue ,Cupertino,California,95014,37.33289,-122.0052,https://www.apple.com/retail/appleparkvisitorcenter/
-Bay Street,5640 Bay Street ,Emeryville,California,94608,37.83475,-122.29224,https://www.apple.com/retail/baystreet/
-North County,272 E Via Rancho Parkway ,Escondido,California,92025,33.07109,-117.06626,https://www.apple.com/retail/northcounty/
-Fashion Fair,645 E. Shaw Avenue ,Fresno,California,93710,36.80674,-119.77553,https://www.apple.com/retail/fashionfair/
-Glendale Galleria,2126 Glendale Galleria ,Glendale,California,91210,34.14533,-118.25845,https://www.apple.com/retail/glendalegalleria/
-The Americana at Brand,877 Americana Way ,Glendale,California,91210,34.14443,-118.25698,https://www.apple.com/retail/theamericanaatbrand/
-Irvine Spectrum Center,930 Spectrum Center Drive ,Irvine,California,92618,33.6489,-117.7406,https://www.apple.com/retail/irvinespectrumcenter/
-The Grove,189 The Grove Drive ,Los Angeles,California,90036,34.07143,-118.357469,https://www.apple.com/retail/thegrove/
-Tower Theatre,802 S Broadway ,Los Angeles,California,90014,34.0435491,-118.2546643,https://www.apple.com/retail/towertheatre/
-Beverly Center,8500 Beverly Boulevard ,Los Angeles,California,90048,34.0749,-118.3773,https://www.apple.com/retail/beverlycenter/
-Century City,10250 Santa Monica Boulevard ,Los Angeles,California,90067,34.05855,-118.418116,https://www.apple.com/retail/centurycity/
-Los Gatos,23 N. Santa Cruz Avenue ,Los Gatos,California,95030,37.223389725861,-121.983768164813,https://www.apple.com/retail/losgatos/
-Manhattan Village,3200 Sepulveda Boulevard ,Manhattan Beach,California,90266,33.89909,-118.393209,https://www.apple.com/retail/manhattanvillage/
-Mission Viejo,936C Shops at Mission Viejo ,Mission Viejo,California,92691,33.557258,-117.670118,https://www.apple.com/retail/missionviejo/
-Vintage Faire,3401 Dale Road ,Modesto,California,95356,37.687749808908,-121.053261792864,https://www.apple.com/retail/vintagefaire/
-Del Monte,240 Del Monte Center ,Monterey,California,93940,36.584103459981,-121.897348157823,https://www.apple.com/retail/delmonte/
-Fashion Island,1113 Newport Center Drive ,Newport Beach,California,92660,33.61502,-117.87673,https://www.apple.com/retail/fashionisland/
-Northridge,9301 Tampa Avenue ,Northridge,California,91324,34.239617605223,-118.556073088477,https://www.apple.com/retail/northridge/
-El Paseo Village,73445 El Paseo ,Palm Desert,California,92260,33.719631,-116.383301,https://www.apple.com/retail/elpaseovillage/
-Stanford Shopping Center,379 Stanford Shopping Center ,Palo Alto,California,94304,37.44177,-122.172489,https://www.apple.com/retail/stanfordshoppingcenter/
-Palo Alto,340 University Avenue ,Palo Alto,California,94301,37.44637,-122.16077,https://www.apple.com/retail/paloalto/
-Pasadena,54 West Colorado Boulevard ,Pasadena,California,91105,34.145765883071,-118.15158605575,https://www.apple.com/retail/pasadena/
-Stoneridge Mall,One Stoneridge Mall ,Pleasanton,California,94588,37.69525,-121.92867,https://www.apple.com/retail/stoneridgemall/
-Victoria Gardens,12461 South Main Street ,Rancho Cucamonga,California,91739,34.11069,-117.5335,https://www.apple.com/retail/victoriagardens/
-Roseville,1151 Galleria Boulevard ,Roseville,California,95678,38.773042110625,-121.26993510375,https://www.apple.com/retail/roseville/
-Arden Fair,1689 Arden Way ,Sacramento,California,95815,38.601039,-121.426442,https://www.apple.com/retail/ardenfair/
-UTC,4305 La Jolla Village Drive ,San Diego,California,92122,32.871867,-117.212674,https://www.apple.com/retail/utc/
-Fashion Valley,7007 Friars Road ,San Diego,California,92108,32.768465871641,-117.165832324545,https://www.apple.com/retail/fashionvalley/
-Chestnut Street,2125 Chestnut Street ,San Francisco,California,94123,37.800415,-122.438363,https://www.apple.com/retail/chestnutstreet/
-Stonestown,3251 20th Avenue ,San Francisco,California,94132,37.72721492,-122.4769552,https://www.apple.com/retail/stonestown/
-Union Square,300 Post Street ,San Francisco,California,94108,37.7886,-122.407159,https://www.apple.com/retail/unionsquare/
-Oakridge,925 Blossom Hill Road ,San Jose,California,95123,37.251599,-121.862899,https://www.apple.com/retail/oakridge/
-Higuera Street,899 Higuera Street ,San Luis Obispo,California,93401,35.280617510041,-120.66187958447,https://www.apple.com/retail/higuerastreet/
-Hillsdale,60  31st Avenue Suite K03,San Mateo,California,94403,37.5389,-122.3018,https://www.apple.com/retail/hillsdale/
-State Street,928 State Street ,Santa Barbara,California,93101,34.421328623322,-119.701544216385,https://www.apple.com/retail/statestreet/
-Valley Fair,2855 Stevens Creek Boulevard ,Santa Clara,California,95050,37.324585,-121.946497,https://www.apple.com/retail/valleyfair/
-Third Street Promenade,1415 Third Street Promenade ,Santa Monica,California,90401,34.01532813854,-118.495429158211,https://www.apple.com/retail/thirdstreetpromenade/
-Santa Rosa Plaza,1071 Santa Rosa Plaza ,Santa Rosa,California,95401,38.438439807966,-122.716418643098,https://www.apple.com/retail/santarosaplaza/
-Sherman Oaks,14006 Riverside Drive ,Sherman Oaks,California,91423,34.157258,-118.438615,https://www.apple.com/retail/shermanoaks/
-Promenade Temecula,40764 Winchester Road ,Temecula,California,92591,33.52375718689,-117.153113410091,https://www.apple.com/retail/promenadetemecula/
-The Oaks,432 West Hillcrest Drive ,Thousand Oaks,California,91360,34.18405,-118.88763,https://www.apple.com/retail/theoaks/
-Valencia Town Center,24201 West Valencia Boulevard ,Valencia,California,91355,34.41515,-118.55813,https://www.apple.com/retail/valenciatowncenter/
-Broadway Plaza,1200 S. Main Street ,Walnut Creek,California,94596,37.896525,-122.059297,https://www.apple.com/retail/broadwayplaza/
-Twenty Ninth Street,1755 29th Street ,Boulder,Colorado,80301,40.01754,-105.25649,https://www.apple.com/retail/twentyninthstreet/
-FlatIron Crossing,One West Flatiron Crossing Dr ,Broomfield,Colorado,80021,39.933409903017,-105.1329389226,https://www.apple.com/retail/flatironcrossing/
-The Promenade Shops at Briargate,1685 Briargate Parkway Suite 315,Colorado Springs,Colorado,80920,38.962692,-104.79529,https://www.apple.com/retail/thepromenadeshopsatbriargate/
-Cherry Creek,3000 E 1st Avenue ,Denver,Colorado,80206,39.717437,-104.95492,https://www.apple.com/retail/cherrycreek/
-Aspen Grove,7301 S Santa Fe Drive ,Littleton,Colorado,80120,39.585168,-105.026,https://www.apple.com/retail/aspengrove/
-Park Meadows,8405 Park Meadows Center Drv ,Lone Tree,Colorado,80124,39.562176,-104.875562,https://www.apple.com/retail/parkmeadows/
-Danbury Fair Mall,Seven Backus Avenue ,Danbury,Connecticut,06810,41.3806,-73.48015,https://www.apple.com/retail/danburyfairmall/
-Westfarms,500 Westfarms Mall ,Farmington,Connecticut,06032,41.722758026916,-72.764513057434,https://www.apple.com/retail/westfarms/
-Greenwich Avenue,356 Greenwich Avenue ,Greenwich,Connecticut,06830,41.023298255128,-73.62529602612,https://www.apple.com/retail/greenwichavenue/
-New Haven,65 Broadway ,New Haven,Connecticut,06511,41.3119,-72.93093,https://www.apple.com/retail/newhaven/
-SoNo Collection,100 N. Water Street ,Norwalk,Connecticut,06854,41.1058,-73.4185,https://www.apple.com/retail/sonocollection/
-Evergreen Walk,401 Evergreen Walk ,South Windsor,Connecticut,06074,41.812848,-72.556558,https://www.apple.com/retail/evergreenwalk/
-Trumbull,5065 Main Street ,Trumbull,Connecticut,06611,41.229466,-73.225779,https://www.apple.com/retail/trumbull/
-Christiana Mall,125 Christiana Mall ,Newark,Delaware,19702,39.679231,-75.653211,https://www.apple.com/retail/christianamall/
-Carnegie Library,801 K Street NW ,Washington,District of Columbia,20001,38.902601,-77.022989,https://www.apple.com/retail/carnegielibrary/
-Georgetown,1229 Wisconsin Avenue NW ,Washington,District of Columbia,20007,38.905922540478,-77.062310166353,https://www.apple.com/retail/georgetown/
-Altamonte,451 E Altamonte Drive ,Altamonte Springs,Florida,32701,28.66665,-81.37696,https://www.apple.com/retail/altamonte/
-Aventura,19501 Biscayne Boulevard ,Aventura,Florida,33180,25.95825,-80.141707,https://www.apple.com/retail/aventura/
-Boca Raton,6000 Glades Road ,Boca Raton,Florida,33431,26.36569,-80.13323,https://www.apple.com/retail/bocaraton/
-Brandon,459 Brandon Town Center Drive ,Brandon,Florida,33511,27.9328,-82.3264,https://www.apple.com/retail/brandon/
-Coconut Point,23151 Fashion Drive ,Estero,Florida,33928,26.402100590821,-81.806635698069,https://www.apple.com/retail/coconutpoint/
-The Galleria,2388 E. Sunrise Boulevard ,Fort Lauderdale,Florida,33304,26.136827578461,-80.114167249231,https://www.apple.com/retail/thegalleria/
-St. Johns Town Center,4835 River City Drive ,Jacksonville,Florida,32246,30.253253,-81.525252,https://www.apple.com/retail/stjohnstowncenter/
-Dadeland,7535 Dadeland Mall ,Miami,Florida,33156,25.689879,-80.313707,https://www.apple.com/retail/dadeland/
-Brickell City Centre,701 S. Miami Avenue ,Miami,Florida,33130,25.7667,-80.1935,https://www.apple.com/retail/brickellcitycentre/
-The Falls,8888 SW 136th Street ,Miami,Florida,33176,25.643719563754,-80.33814594377,https://www.apple.com/retail/thefalls/
-Lincoln Road,1021 Lincoln Road ,Miami Beach,Florida,33139,25.79102,-80.139364,https://www.apple.com/retail/lincolnroad/
-Waterside Shops,5555 Tamiami Trail North ,Naples,Florida,34108,26.2132,-81.8017,https://www.apple.com/retail/watersideshops/
-Millenia,4200 Conroy Road ,Orlando,Florida,32839,28.486,-81.43174,https://www.apple.com/retail/millenia/
-Florida Mall,8001 S. Orange Blossom Trail ,Orlando,Florida,32809,28.445141,-81.394177,https://www.apple.com/retail/floridamall/
-The Gardens Mall,3101 PGA Boulevard ,Palm Beach Gardens,Florida,33410,26.84865,-80.0848,https://www.apple.com/retail/thegardensmall/
-University Town Center,140 University Town Center Dr ,Sarasota,Florida,34243,27.38493,-82.45268,https://www.apple.com/retail/universitytowncenter/
-International Plaza,2223 N West Shore Boulevard ,Tampa,Florida,33607,27.96408,-82.51952,https://www.apple.com/retail/internationalplaza/
-Wellington Green,10300 W. Forest Hill Blvd ,Wellington,Florida,33414,26.647028,-80.208856,https://www.apple.com/retail/wellingtongreen/
-Avalon,8130 Avalon Boulevard ,Alpharetta,Georgia,30009,34.07062236953,-84.274814128876,https://www.apple.com/retail/avalon/
-Perimeter,4400 Ashford Dunwoody Road ,Atlanta,Georgia,30346,33.92409,-84.34062,https://www.apple.com/retail/perimeter/
+The Summit,217 Summit Boulevard,Birmingham,AL,35243,33.44801152,-86.72851362,https://www.apple.com/retail/thesummit/
+Bridge Street,320 The Bridge Street,Huntsville,AL,35806,34.716144,-86.673021,https://www.apple.com/retail/bridgestreet/
+Anchorage 5th Avenue Mall,320 West 5th Avenue,Anchorage,AK,99501,61.216734,-149.888387,https://www.apple.com/retail/anchorage5thavenuemall/
+Chandler Fashion Center,3111 W Chandler Boulevard,Chandler,AZ,85226,33.302255,-111.89969,https://www.apple.com/retail/chandlerfashioncenter/
+SanTan Village,2218 E. Williams Field Road,Gilbert,AZ,85295,33.30879,-111.74271,https://www.apple.com/retail/santanvillage/
+Arrowhead,7700 West Arrowhead Towne Ctr,Glendale,AZ,85308,33.6422,-112.2256,https://www.apple.com/retail/arrowhead/
+Scottsdale Fashion Square,7014 East Camelback Road,Scottsdale,AZ,85251,33.50367,-111.9266,https://www.apple.com/retail/scottsdalefashionsquare/
+Scottsdale Quarter,15169 North Scottsdale Road,Scottsdale,AZ,85254,33.62411,-111.92514,https://www.apple.com/retail/scottsdalequarter/
+La Encantada,2905 East Skyline Drive,Tucson,AZ,85718,32.32497,-110.92985,https://www.apple.com/retail/laencantada/
+The Promenade at Chenal,17711 Chenal Parkway,Little Rock,AR,72223,34.76635,-92.45902,https://www.apple.com/retail/thepromenadeatchenal/
+Valley Plaza,2701 Ming Avenue,Bakersfield,CA,93304,35.33795,-119.03271,https://www.apple.com/retail/valleyplaza/
+4th Street,1823 4th Street,Berkeley,CA,94710,37.869346,-122.300122,https://www.apple.com/retail/4thstreet/
+Brea Mall,1016C Brea Mall,Brea,CA,92821,33.915871,-117.886592,https://www.apple.com/retail/breamall/
+Burlingame,1301 Burlingame Avenue,Burlingame,CA,94010,37.57827,-122.34708,https://www.apple.com/retail/burlingame/
+Topanga,6600 Topanga Canyon Boulevard,Canoga Park,CA,91303,34.190237371111,-118.603103308888,https://www.apple.com/retail/topanga/
+Carlsbad,1923 Calle Barcelona,Carlsbad,CA,92009,33.071256341208,-117.265198794902,https://www.apple.com/retail/carlsbad/
+Los Cerritos,242 Los Cerritos Center,Cerritos,CA,90703,33.862423,-118.093942,https://www.apple.com/retail/loscerritos/
+Otay Ranch,2015 Birch Road,Chula Vista,CA,91915,32.624013452564,-116.966609291354,https://www.apple.com/retail/otayranch/
+Corte Madera,1520 Redwood Highway,Corte Madera,CA,94925,37.928465,-122.514284,https://www.apple.com/retail/cortemadera/
+South Coast Plaza,3333 Bear Street,Costa Mesa,CA,92626,33.6921,-117.89322,https://www.apple.com/retail/southcoastplaza/
+Infinite Loop,One Infinite Loop,Cupertino,CA,95014,37.331423,-122.030503,https://www.apple.com/retail/infiniteloop/
+Apple Park Visitor Center,10600 North Tantau Avenue,Cupertino,CA,95014,37.33289,-122.0052,https://www.apple.com/retail/appleparkvisitorcenter/
+Bay Street,5640 Bay Street,Emeryville,CA,94608,37.83475,-122.29224,https://www.apple.com/retail/baystreet/
+North County,272 E Via Rancho Parkway,Escondido,CA,92025,33.07109,-117.06626,https://www.apple.com/retail/northcounty/
+Fashion Fair,645 E. Shaw Avenue,Fresno,CA,93710,36.80674,-119.77553,https://www.apple.com/retail/fashionfair/
+Glendale Galleria,2126 Glendale Galleria,Glendale,CA,91210,34.14533,-118.25845,https://www.apple.com/retail/glendalegalleria/
+The Americana at Brand,877 Americana Way,Glendale,CA,91210,34.14443,-118.25698,https://www.apple.com/retail/theamericanaatbrand/
+Irvine Spectrum Center,930 Spectrum Center Drive,Irvine,CA,92618,33.6489,-117.7406,https://www.apple.com/retail/irvinespectrumcenter/
+The Grove,189 The Grove Drive,Los Angeles,CA,90036,34.07143,-118.357469,https://www.apple.com/retail/thegrove/
+Tower Theatre,802 S Broadway,Los Angeles,CA,90014,34.0435491,-118.2546643,https://www.apple.com/retail/towertheatre/
+Beverly Center,8500 Beverly Boulevard,Los Angeles,CA,90048,34.0749,-118.3773,https://www.apple.com/retail/beverlycenter/
+Century City,10250 Santa Monica Boulevard,Los Angeles,CA,90067,34.05855,-118.418116,https://www.apple.com/retail/centurycity/
+Los Gatos,23 N. Santa Cruz Avenue,Los Gatos,CA,95030,37.223389725861,-121.983768164813,https://www.apple.com/retail/losgatos/
+Manhattan Village,3200 Sepulveda Boulevard,Manhattan Beach,CA,90266,33.89909,-118.393209,https://www.apple.com/retail/manhattanvillage/
+Mission Viejo,936C Shops at Mission Viejo,Mission Viejo,CA,92691,33.557258,-117.670118,https://www.apple.com/retail/missionviejo/
+Vintage Faire,3401 Dale Road,Modesto,CA,95356,37.687749808908,-121.053261792864,https://www.apple.com/retail/vintagefaire/
+Del Monte,240 Del Monte Center,Monterey,CA,93940,36.584103459981,-121.897348157823,https://www.apple.com/retail/delmonte/
+Fashion Island,1113 Newport Center Drive,Newport Beach,CA,92660,33.61502,-117.87673,https://www.apple.com/retail/fashionisland/
+Northridge,9301 Tampa Avenue,Northridge,CA,91324,34.239617605223,-118.556073088477,https://www.apple.com/retail/northridge/
+El Paseo Village,73445 El Paseo,Palm Desert,CA,92260,33.719631,-116.383301,https://www.apple.com/retail/elpaseovillage/
+Stanford Shopping Center,379 Stanford Shopping Center,Palo Alto,CA,94304,37.44177,-122.172489,https://www.apple.com/retail/stanfordshoppingcenter/
+Palo Alto,340 University Avenue,Palo Alto,CA,94301,37.44637,-122.16077,https://www.apple.com/retail/paloalto/
+Pasadena,54 West Colorado Boulevard,Pasadena,CA,91105,34.145765883071,-118.15158605575,https://www.apple.com/retail/pasadena/
+Stoneridge Mall,One Stoneridge Mall,Pleasanton,CA,94588,37.69525,-121.92867,https://www.apple.com/retail/stoneridgemall/
+Victoria Gardens,12461 South Main Street,Rancho Cucamonga,CA,91739,34.11069,-117.5335,https://www.apple.com/retail/victoriagardens/
+Roseville,1151 Galleria Boulevard,Roseville,CA,95678,38.773042110625,-121.26993510375,https://www.apple.com/retail/roseville/
+Arden Fair,1689 Arden Way,Sacramento,CA,95815,38.601039,-121.426442,https://www.apple.com/retail/ardenfair/
+UTC,4305 La Jolla Village Drive,San Diego,CA,92122,32.871867,-117.212674,https://www.apple.com/retail/utc/
+Fashion Valley,7007 Friars Road,San Diego,CA,92108,32.768465871641,-117.165832324545,https://www.apple.com/retail/fashionvalley/
+Chestnut Street,2125 Chestnut Street,San Francisco,CA,94123,37.800415,-122.438363,https://www.apple.com/retail/chestnutstreet/
+Stonestown,3251 20th Avenue,San Francisco,CA,94132,37.72721492,-122.4769552,https://www.apple.com/retail/stonestown/
+Union Square,300 Post Street,San Francisco,CA,94108,37.7886,-122.407159,https://www.apple.com/retail/unionsquare/
+Oakridge,925 Blossom Hill Road,San Jose,CA,95123,37.251599,-121.862899,https://www.apple.com/retail/oakridge/
+Higuera Street,899 Higuera Street,San Luis Obispo,CA,93401,35.280617510041,-120.66187958447,https://www.apple.com/retail/higuerastreet/
+Hillsdale,60  31st Avenue,San Mateo,CA,94403,37.5389,-122.3018,https://www.apple.com/retail/hillsdale/
+State Street,928 State Street,Santa Barbara,CA,93101,34.421328623322,-119.701544216385,https://www.apple.com/retail/statestreet/
+Valley Fair,2855 Stevens Creek Boulevard,Santa Clara,CA,95050,37.324585,-121.946497,https://www.apple.com/retail/valleyfair/
+Third Street Promenade,1415 Third Street Promenade,Santa Monica,CA,90401,34.01532813854,-118.495429158211,https://www.apple.com/retail/thirdstreetpromenade/
+Santa Rosa Plaza,1071 Santa Rosa Plaza,Santa Rosa,CA,95401,38.438439807966,-122.716418643098,https://www.apple.com/retail/santarosaplaza/
+Sherman Oaks,14006 Riverside Drive,Sherman Oaks,CA,91423,34.157258,-118.438615,https://www.apple.com/retail/shermanoaks/
+Promenade Temecula,40764 Winchester Road,Temecula,CA,92591,33.52375718689,-117.153113410091,https://www.apple.com/retail/promenadetemecula/
+The Oaks,432 West Hillcrest Drive,Thousand Oaks,CA,91360,34.18405,-118.88763,https://www.apple.com/retail/theoaks/
+Valencia Town Center,24201 West Valencia Boulevard,Valencia,CA,91355,34.41515,-118.55813,https://www.apple.com/retail/valenciatowncenter/
+Broadway Plaza,1200 S. Main Street,Walnut Creek,CA,94596,37.896525,-122.059297,https://www.apple.com/retail/broadwayplaza/
+Twenty Ninth Street,1755 29th Street,Boulder,CO,80301,40.01754,-105.25649,https://www.apple.com/retail/twentyninthstreet/
+FlatIron Crossing,One West Flatiron Crossing Dr,Broomfield,CO,80021,39.933409903017,-105.1329389226,https://www.apple.com/retail/flatironcrossing/
+The Promenade Shops at Briargate,1685 Briargate Parkway,Colorado Springs,CO,80920,38.962692,-104.79529,https://www.apple.com/retail/thepromenadeshopsatbriargate/
+Cherry Creek,3000 E 1st Avenue,Denver,CO,80206,39.717437,-104.95492,https://www.apple.com/retail/cherrycreek/
+Aspen Grove,7301 S Santa Fe Drive,Littleton,CO,80120,39.585168,-105.026,https://www.apple.com/retail/aspengrove/
+Park Meadows,8405 Park Meadows Center Drv,Lone Tree,CO,80124,39.562176,-104.875562,https://www.apple.com/retail/parkmeadows/
+Danbury Fair Mall,Seven Backus Avenue,Danbury,CT,06810,41.3806,-73.48015,https://www.apple.com/retail/danburyfairmall/
+Westfarms,500 Westfarms Mall,Farmington,CT,06032,41.722758026916,-72.764513057434,https://www.apple.com/retail/westfarms/
+Greenwich Avenue,356 Greenwich Avenue,Greenwich,CT,06830,41.023298255128,-73.62529602612,https://www.apple.com/retail/greenwichavenue/
+New Haven,65 Broadway,New Haven,CT,06511,41.3119,-72.93093,https://www.apple.com/retail/newhaven/
+SoNo Collection,100 N. Water Street,Norwalk,CT,06854,41.1058,-73.4185,https://www.apple.com/retail/sonocollection/
+Evergreen Walk,401 Evergreen Walk,South Windsor,CT,06074,41.812848,-72.556558,https://www.apple.com/retail/evergreenwalk/
+Trumbull,5065 Main Street,Trumbull,CT,06611,41.229466,-73.225779,https://www.apple.com/retail/trumbull/
+Christiana Mall,125 Christiana Mall,Newark,DE,19702,39.679231,-75.653211,https://www.apple.com/retail/christianamall/
+Carnegie Library,801 K Street NW,Washington,DC,20001,38.902601,-77.022989,https://www.apple.com/retail/carnegielibrary/
+Georgetown,1229 Wisconsin Avenue NW,Washington,DC,20007,38.905922540478,-77.062310166353,https://www.apple.com/retail/georgetown/
+Altamonte,451 E Altamonte Drive,Altamonte Springs,FL,32701,28.66665,-81.37696,https://www.apple.com/retail/altamonte/
+Aventura,19501 Biscayne Boulevard,Aventura,FL,33180,25.95825,-80.141707,https://www.apple.com/retail/aventura/
+Boca Raton,6000 Glades Road,Boca Raton,FL,33431,26.36569,-80.13323,https://www.apple.com/retail/bocaraton/
+Brandon,459 Brandon Town Center Drive,Brandon,FL,33511,27.9328,-82.3264,https://www.apple.com/retail/brandon/
+Coconut Point,23151 Fashion Drive,Estero,FL,33928,26.402100590821,-81.806635698069,https://www.apple.com/retail/coconutpoint/
+The Galleria,2388 E. Sunrise Boulevard,Fort Lauderdale,FL,33304,26.136827578461,-80.114167249231,https://www.apple.com/retail/thegalleria/
+St. Johns Town Center,4835 River City Drive,Jacksonville,FL,32246,30.253253,-81.525252,https://www.apple.com/retail/stjohnstowncenter/
+Dadeland,7535 Dadeland Mall,Miami,FL,33156,25.689879,-80.313707,https://www.apple.com/retail/dadeland/
+Brickell City Centre,701 S. Miami Avenue,Miami,FL,33130,25.7667,-80.1935,https://www.apple.com/retail/brickellcitycentre/
+The Falls,8888 SW 136th Street,Miami,FL,33176,25.643719563754,-80.33814594377,https://www.apple.com/retail/thefalls/
+Lincoln Road,1021 Lincoln Road,Miami Beach,FL,33139,25.79102,-80.139364,https://www.apple.com/retail/lincolnroad/
+Waterside Shops,5555 Tamiami Trail North,Naples,FL,34108,26.2132,-81.8017,https://www.apple.com/retail/watersideshops/
+Millenia,4200 Conroy Road,Orlando,FL,32839,28.486,-81.43174,https://www.apple.com/retail/millenia/
+Florida Mall,8001 S. Orange Blossom Trail,Orlando,FL,32809,28.445141,-81.394177,https://www.apple.com/retail/floridamall/
+The Gardens Mall,3101 PGA Boulevard,Palm Beach Gardens,FL,33410,26.84865,-80.0848,https://www.apple.com/retail/thegardensmall/
+University Town Center,140 University Town Center Dr,Sarasota,FL,34243,27.38493,-82.45268,https://www.apple.com/retail/universitytowncenter/
+International Plaza,2223 N West Shore Boulevard,Tampa,FL,33607,27.96408,-82.51952,https://www.apple.com/retail/internationalplaza/
+Wellington Green,10300 W. Forest Hill Blvd,Wellington,FL,33414,26.647028,-80.208856,https://www.apple.com/retail/wellingtongreen/
+Avalon,8130 Avalon Boulevard,Alpharetta,GA,30009,34.07062236953,-84.274814128876,https://www.apple.com/retail/avalon/
+Perimeter,4400 Ashford Dunwoody Road,Atlanta,GA,30346,33.92409,-84.34062,https://www.apple.com/retail/perimeter/
+Lenox Square,3393 Peachtree Road NE,Atlanta,GA,30326,33.847941,-84.363533,https://www.apple.com/retail/lenoxsquare/
+Cumberland Mall,2860 Cumberland Mall,Atlanta,GA,30339,33.88024,-84.46835,https://www.apple.com/retail/cumberlandmall/
+Augusta,3450 Wrightsboro Road,Augusta,GA,30909,33.46575,-82.08065,https://www.apple.com/retail/augusta/
+Mall of Georgia,3333 Buford Drive,Buford,GA,30519,34.06567,-83.98333,https://www.apple.com/retail/mallofgeorgia/
+Royal Hawaiian,2301 Kalakaua Avenue,Honolulu,HI,96815,21.278075,-157.828165,https://www.apple.com/retail/royalhawaiian/
+Kahala,4211 Waialae Avenue,Honolulu,HI,96816,21.277081111189,-157.78698547723,https://www.apple.com/retail/kahala/
+Ala Moana,1450 Ala Moana Boulevard,Honolulu,HI,96814,21.29023622211,-157.842305770593,https://www.apple.com/retail/alamoana/
+Boise Towne Square,350 North Milwaukee Street,Boise,ID,83704,43.60841,-116.2782,https://www.apple.com/retail/boisetownesquare/
+Lincoln Park,801 W. North Avenue,Chicago,IL,60642,41.91062,-87.64856,https://www.apple.com/retail/lincolnpark/
+Michigan Avenue,401 North Michigan Avenue,Chicago,IL,60611,41.88929,-87.6237,https://www.apple.com/retail/michiganavenue/
+Deer Park,20530 N. Rand Road,Deer Park,IL,60010,42.1605,-88.0554,https://www.apple.com/retail/deerpark/
+Main Place,120 West Jefferson Avenue,Naperville,IL,60540,41.7728,-88.15037,https://www.apple.com/retail/mainplace/
+Northbrook,1056 Northbrook Court,Northbrook,IL,60062,42.15048,-87.81709,https://www.apple.com/retail/northbrook/
+Oakbrook,70 Oakbrook Center,Oak Brook,IL,60523,41.84972,-87.9537,https://www.apple.com/retail/oakbrook/
+Orland Square Mall,288 Orland Square Drive,Orland Park,IL,60462,41.6193,-87.8479,https://www.apple.com/retail/orlandsquaremall/
+Woodfield,N311 Woodfield Mall,Schaumburg,IL,60173,42.0456619,-88.0388,https://www.apple.com/retail/woodfield/
+Old Orchard,4999 Old Orchard Center,Skokie,IL,60077,42.057204,-87.749956,https://www.apple.com/retail/oldorchard/
+The Fashion Mall at Keystone,8702 Keystone Crossing,Indianapolis,IN,46240,39.9141,-86.11181,https://www.apple.com/retail/thefashionmallatkeystone/
+University Park Mall,6501 North Grape Road,Mishawaka,IN,46545,41.71847,-86.19101,https://www.apple.com/retail/universityparkmall/
+Jordan Creek,101 Jordan Creek Parkway,West Des Moines,IA,50266,41.570044,-93.803773,https://www.apple.com/retail/jordancreek/
+Leawood,4529 West 119th Street,Leawood,KS,66209,38.91131,-94.6378,https://www.apple.com/retail/leawood/
+Fritz Farm,4078 Finn Way,Lexington,KY,40517,37.977139,-84.528169,https://www.apple.com/retail/fritzfarm/
+Oxmoor,7900 Shelbyville Road,Louisville,KY,40222,38.247278,-85.609467,https://www.apple.com/retail/oxmoor/
+Mall of Louisiana,6401 Bluebonnet Boulevard,Baton Rouge,LA,70836,30.38801,-91.08676,https://www.apple.com/retail/malloflouisiana/
+Lakeside Shopping Center,3301 Veterans Memorial Blvd,Metairie,LA,70002,30.006032950925,-90.157173201422,https://www.apple.com/retail/lakesideshoppingcenter/
+Maine Mall,364 Maine Mall Road,South Portland,ME,04106,43.633574,-70.334645,https://www.apple.com/retail/mainemall/
+Annapolis,1735 Annapolis Mall,Annapolis,MD,21401,38.990536,-76.54414,https://www.apple.com/retail/annapolis/
+Bethesda Row,4860 Bethesda Avenue,Bethesda,MD,20814,38.980647104108,-77.09770810408,https://www.apple.com/retail/bethesdarow/
+Montgomery Mall,7101 Democracy Boulevard,Bethesda,MD,20817,39.024365,-77.146182,https://www.apple.com/retail/montgomerymall/
+Columbia,10300 Little Patuxent Parkway,Columbia,MD,21044,39.216,-76.85995,https://www.apple.com/retail/columbia/

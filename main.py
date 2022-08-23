@@ -27,18 +27,17 @@ def export(items):
 def crawl_store(url):
     response = requests.get(url, headers=HEADERS)
     doc = lxml.html.fromstring(response.content)
-    script = doc.xpath('/html/head/script[@type="application/ld+json"]/text()')
-    data = json.loads(script[0])
-    address = data['address']
-    geo = data['geo']
+    script = doc.xpath('id("__NEXT_DATA__")/text()')[0]
+    data = json.loads(script)
+    details = data['props']['pageProps']['storeDetails']
     item = {
-        'name': doc.xpath('/html/head/meta[@property="og:title"]/@content')[0].split('-', 1)[0].strip(),
-        'street': address['streetAddress'],
-        'locality': address['addressLocality'],
-        'region': address['addressRegion'],
-        'postal_code': address['postalCode'],
-        'latitude': geo['latitude'],
-        'longitude': geo['longitude'],
+        'name': details['name'].strip(),
+        'street': details['address']['address1'].strip(),
+        'locality': details['address']['city'].strip(),
+        'region': details['address']['stateCode'].strip(),
+        'postal_code': details['address']['postal'].strip(),
+        'latitude': details['geolocation']['latitude'],
+        'longitude': details['geolocation']['longitude'],
         'url': doc.xpath('/html/head/meta[@property="og:url"]/@content')[0],
     }
     print(item)
@@ -46,7 +45,7 @@ def crawl_store(url):
 
 def crawl_stores(html):
     doc = lxml.html.fromstring(html)
-    stores = doc.cssselect('.store-address a')[:100]
+    stores = doc.cssselect('.store-address a')[:130]
     for store in stores:
         href = store.get('href')
         url = f'https://apple.com{href}'
