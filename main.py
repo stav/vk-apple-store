@@ -1,6 +1,7 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 import re
 import csv
+import json
 import requests
 import requests_cache
 import lxml.html
@@ -26,19 +27,18 @@ def export(items):
 def crawl_store(url):
     response = requests.get(url, headers=HEADERS)
     doc = lxml.html.fromstring(response.content)
-    street, city, _, __, state, ___, zipcode, phone, *rest = doc.xpath('//address/text()')
-    hrefs = (a.get('href') for a in doc.cssselect('.store-support-item a'))
-    href = next(filter(lambda href: '&long=' in href, hrefs))
-    latitude = LATITUDE.search(href).group(1)
-    longitude = LONGITUDE.search(href).group(1)
+    script = doc.xpath('/html/head/script[@type="application/ld+json"]/text()')
+    data = json.loads(script[0])
+    address = data['address']
+    geo = data['geo']
     item = {
         'name': doc.xpath('/html/head/meta[@property="og:title"]/@content')[0].split('-', 1)[0].strip(),
-        'street': street,
-        'locality': city,
-        'region': state,
-        'postal_code': zipcode,
-        'latitude': latitude,
-        'longitude': longitude,
+        'street': address['streetAddress'],
+        'locality': address['addressLocality'],
+        'region': address['addressRegion'],
+        'postal_code': address['postalCode'],
+        'latitude': geo['latitude'],
+        'longitude': geo['longitude'],
         'url': doc.xpath('/html/head/meta[@property="og:url"]/@content')[0],
     }
     print(item)
@@ -46,7 +46,7 @@ def crawl_store(url):
 
 def crawl_stores(html):
     doc = lxml.html.fromstring(html)
-    stores = doc.cssselect('.store-address a')[:80]
+    stores = doc.cssselect('.store-address a')[:100]
     for store in stores:
         href = store.get('href')
         url = f'https://apple.com{href}'
