@@ -26,12 +26,12 @@ def export(items):
 def crawl_store(url):
     response = requests.get(url, headers=HEADERS)
     doc = lxml.html.fromstring(response.content)
-    street, city, _, __, state, ___, zipcode, phone = doc.xpath('//address/text()')
+    street, city, _, __, state, ___, zipcode, phone, *rest = doc.xpath('//address/text()')
     hrefs = (a.get('href') for a in doc.cssselect('.store-support-item a'))
     href = next(filter(lambda href: '&long=' in href, hrefs))
     latitude = LATITUDE.search(href).group(1)
     longitude = LONGITUDE.search(href).group(1)
-    return {
+    item = {
         'name': doc.xpath('/html/head/meta[@property="og:title"]/@content')[0].split('-', 1)[0].strip(),
         'street': street,
         'locality': city,
@@ -41,10 +41,13 @@ def crawl_store(url):
         'longitude': longitude,
         'url': doc.xpath('/html/head/meta[@property="og:url"]/@content')[0],
     }
+    print(item)
+    return item
 
 def crawl_stores(html):
     doc = lxml.html.fromstring(html)
-    for store in doc.cssselect('.store-address a')[:40]:
+    stores = doc.cssselect('.store-address a')[:80]
+    for store in stores:
         href = store.get('href')
         url = f'https://apple.com{href}'
         yield crawl_store(url)
@@ -52,6 +55,5 @@ def crawl_stores(html):
 if __name__ == '__main__':
     url = 'https://www.apple.com/retail/storelist/'
     response = requests.get(url, headers=HEADERS)
-    print(response.status_code)
     items = crawl_stores(response.content)
     export(items)
