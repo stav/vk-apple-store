@@ -3,6 +3,7 @@
 import requests
 import requests_cache
 import lxml.html
+from requests import Response
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Safari/537.36",
@@ -13,8 +14,10 @@ HEADERS = {
 
 requests_cache.install_cache(cache_name='apple_ctore', backend='sqlite')
 
-def crawl_store(href):
-    url = f'https://apple.com{href}'
+def export(item):
+    print(item)
+
+def crawl_store(url):
     response = requests.get(url, headers=HEADERS)
     doc = lxml.html.fromstring(response.content)
     street, city, _, __, state, ___, zipcode, phone = doc.xpath('//address/text()')
@@ -27,19 +30,16 @@ def crawl_store(href):
         'postal_code': zipcode,
     }
 
-def crawl_list(doc):
-    for store in doc.cssselect('.store-address')[:20]:
-        spans = store.xpath('.//span/text()')
-        location = spans[0] if len(spans) > 0 else 'UNKNOWN'
-        hrefs = store.xpath('.//a/@href')
-        if hrefs:
-            href = hrefs[0]
-            yield crawl_store(href)
+def crawl_stores(html):
+    doc = lxml.html.fromstring(html)
+    for store in doc.cssselect('.store-address a')[:30]:
+        href = store.get('href')
+        url = f'https://apple.com{href}'
+        yield crawl_store(url)
 
 if __name__ == '__main__':
     url = 'https://www.apple.com/retail/storelist/'
     response = requests.get(url, headers=HEADERS)
     print(response.status_code)
-    doc = lxml.html.fromstring(response.content)
-    for item in crawl_list(doc):
-        print(item)
+    for item in crawl_stores(response.content):
+        export(item)
