@@ -20,7 +20,7 @@ requests_cache.install_cache(cache_name='apple_ctore', backend='sqlite')
 def export(items):
     with open('stores.csv', 'w', newline='') as csvfile:
         fieldnames = ['name', 'street', 'locality', 'region', 'postal_code', 'latitude', 'longitude', 'url']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, dialect=csv.unix_dialect)
         writer.writeheader()
         writer.writerows(items)
 
