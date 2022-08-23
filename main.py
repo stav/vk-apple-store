@@ -1,5 +1,6 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 import re
+import csv
 import requests
 import requests_cache
 import lxml.html
@@ -15,8 +16,12 @@ LONGITUDE = re.compile(r"long=([\d.-]+)")
 
 requests_cache.install_cache(cache_name='apple_ctore', backend='sqlite')
 
-def export(item):
-    print(item)
+def export(items):
+    with open('stores.csv', 'w', newline='') as csvfile:
+        fieldnames = ['name', 'street', 'locality', 'region', 'postal_code', 'latitude', 'longitude', 'url']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(items)
 
 def crawl_store(url):
     response = requests.get(url, headers=HEADERS)
@@ -48,5 +53,5 @@ if __name__ == '__main__':
     url = 'https://www.apple.com/retail/storelist/'
     response = requests.get(url, headers=HEADERS)
     print(response.status_code)
-    for item in crawl_stores(response.content):
-        export(item)
+    items = crawl_stores(response.content)
+    export(items)
