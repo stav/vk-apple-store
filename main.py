@@ -19,7 +19,7 @@ requests_cache.install_cache(cache_name='apple_ctore', backend='sqlite')
 
 def export(items):
     with open('stores.csv', 'w', newline='') as csvfile:
-        fieldnames = ['name', 'street', 'locality', 'region', 'postal_code', 'latitude', 'longitude', 'url']
+        fieldnames = ['Name', 'Street', 'Locality', 'Region', 'Postal Code', 'Latitude', 'Longitude', 'URL']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames, dialect=csv.unix_dialect)
         writer.writeheader()
         writer.writerows(items)
@@ -31,14 +31,14 @@ def crawl_store(url):
     data = json.loads(script)
     details = data['props']['pageProps']['storeDetails']
     item = {
-        'name': details['name'].strip(),
-        'street': details['address']['address1'].strip(),
-        'locality': details['address']['city'].strip(),
-        'region': details['address']['stateCode'].strip(),
-        'postal_code': details['address']['postal'].strip(),
-        'latitude': details['geolocation']['latitude'],
-        'longitude': details['geolocation']['longitude'],
-        'url': doc.xpath('/html/head/meta[@property="og:url"]/@content')[0],
+        'Name': details['name'].strip(),
+        'Street': details['address']['address1'].strip(),
+        'Locality': details['address']['city'].strip(),
+        'Region': details['address']['stateCode'].strip(),
+        'Postal Code': details['address']['postal'].strip(),
+        'Latitude': details['geolocation']['latitude'],
+        'Longitude': details['geolocation']['longitude'],
+        'URL': doc.xpath('/html/head/meta[@property="og:url"]/@content')[0],
     }
     print(item)
     return item
